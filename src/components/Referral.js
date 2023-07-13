@@ -7,25 +7,25 @@ export default function Referral(props) {
   const level = [
     {
       id: "1",
-      num: "5%",
+      num: "8%",
       count: props.ref_data1[0],
       earn: props.ref_data[0] / 100000000,
     },
     {
       id: "2",
-      num: "3%",
+      num: "6%",
       count: props.ref_data1[1],
       earn: props.ref_data[1] / 100000000,
     },
     {
       id: "3",
-      num: "2%",
+      num: "4%",
       count: props.ref_data1[2],
       earn: props.ref_data[2] / 100000000,
     },
     {
       id: "4",
-      num: "1%",
+      num: "2%",
       count: props.ref_data1[3],
       earn: props.ref_data[3] / 100000000,
     },
@@ -98,7 +98,7 @@ export default function Referral(props) {
             readOnly
             ref={ref}
           >
-           https://dapps.smartmoneycoin.net/?ref={props.referral}
+           https://localhost/8000?ref={props.referral}
           </span>
           <button
             type="button"
